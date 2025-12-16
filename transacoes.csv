@@ -1,0 +1,5 @@
+tipo;valor;data;origem;destino
+DEPÓSITO;1000.0;2025-12-11T09:49:01.302166300;Conta 1001 | Agência 100 | Cliente: Maxwell Ferreira | Saldo: R$ 1000.0 | Tipo: Corrente;-
+SAQUE;200.0;2025-12-11T09:49:17.720521700;Conta 1001 | Agência 100 | Cliente: Maxwell Ferreira | Saldo: R$ 800.0 | Tipo: Corrente;-
+SAQUE;200.0;2025-12-11T09:54:20.753528600;Conta 1001 | Agência 100 | Cliente: Maxwell Ferreira | Saldo: R$ 600.0 | Tipo: Corrente;-
+TRANSFERÊNCIA;150.0;2025-12-11T09:57:15.868329900;Conta 1001 | Agência 100 | Cliente: Maxwell Ferreira | Saldo: R$ 450.0 | Tipo: Corrente;Conta 1002 | Agência 100 | Cliente: Ana Costa | Saldo: R$ 150.0 | Tipo: Corrente
