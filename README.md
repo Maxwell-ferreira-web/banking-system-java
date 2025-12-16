@@ -62,20 +62,18 @@ Escolha uma opção:
 ```
 banking-cli/
 ├── src/
-│   ├── model/
-│   │   ├── ContaBancaria.java    # Entidade conta bancária
-│   │   ├── Cliente.java          # Entidade cliente
-│   │   ├── Transacao.java        # Entidade transação
-│   │   └── TipoTransacao.java    # Enum tipos de transação
-│   ├── service/
-│   │   ├── BancoService.java     # Lógica de negócio principal
-│   │   └── TransacaoService.java # Gerenciamento de transações
-│   ├── util/
-│   │   └── CSVExporter.java      # Utilitário para exportação
-│   └── Main.java                 # 🎯 ARQUIVO PRINCIPAL - Execute este!
-├── bin/                          # Arquivos compilados
-├── transacoes.csv               # Arquivo de transações gerado
-└── README.md                    # Este arquivo
+│   └── (default package)/
+│       ├── Main.java                 # 🎯 ARQUIVO PRINCIPAL - Execute este!
+│       ├── entities/
+│       │   ├── Cliente.java          # Entidade cliente
+│       │   ├── ContaBancaria.java    # Entidade conta bancária
+│       │   └── Transacao.java        # Entidade transação
+│       ├── services/
+│       │   ├── BancoService.java     # Lógica de negócio principal
+│       │   └── MenuService.java      # Gerenciamento do menu CLI
+│       └── utils/
+│           └── CsvExporter.java      # Utilitário para exportação CSV
+└── JRE System Library                # Bibliotecas Java
 ```
 
 ## Tecnologias utilizadas
